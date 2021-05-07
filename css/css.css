@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 header{
     background-color: #E8E8E8;  
@@ -11,66 +12,99 @@ header{
     justify-content: space-between;
 }
 header div{
-    background-color: #fff;
     width: 40px;
     height: 40px;
     margin-top: 3px;
     margin-left: 30px;
-    border: 1px solid #4A4A4A;
 }
 header ul{
     display: flex;
     flex-direction: row;
 }
 header ul li{
-    background-color: #9B7B99;
-    width: 40px;
-    height: 18px;
-    margin-right: 25px;
+    margin-right: 10px;
     margin-top: 15px;
     list-style: none;
+}
+.google{
+    background-color: #DB4437;
+    padding: 5px 20px 5px 20px;
+    color:#fff;
+}
+.drive{
+    background-color: #F4B400;
+    padding: 5px 20px 5px 20px;
+    text-align: center;
+    color: #fff;
+}
+.gmail{
+    background-color: #0F9D58;
+    padding: 5px 20px 5px 20px;
+    color:#fff;
+}
+.classroom{
+    background-color: #4285F4;
+    padding: 5px 20px 5px 20px;
+    color: #fff;
+}
+.calendar{
+    background-color: dimgray;
+    padding: 5px 20px 5px 20px;
+    color: #fff;
+}
+.logo{
+    width: 100%;
+}
+a{
+    text-decoration: none
 }
 section{
     width: 100%;
     height: auto;
-    padding: 130px 0px 295px 0px;
+    padding: 110px 0px 295px 0px;
     justify-content: center;
     display: grid;
 }
 .section1{
-    background-color: #DFDFDF;
+    background-image: url(../img/portada.png);
+    background-size: cover;
 }
 .caja1{
-    background-color: #9B7B99;
-    width: 400px;
-    height: 50px;
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
     margin: auto;
 }
 .caja2{
-    background-color: #9B7B99;
-    width: 700px;
-    height: 50px;
-    margin-top: 30px;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    margin-top: 40px;
 }
 .botonA{
     background-color: #4A4A4A;
     margin: auto;
-    width: 80px;
-    padding: 35px 40px 10px 40px;
-    border-radius: 20px;
+    width: 145px;
+    padding: 15px 60px 15px 45px;
+    border-radius: 35px;
     margin-top: 60px;
     text-align: center;
     text-decoration: none;
+    color: #fff;
+    font-size: 25px;
 }
 .cajas2{
     display: flex;
     justify-content: center;
     flex-direction: row;
 }
+.imagenes{
+    width: 100%;
+}
 .cajas2 div{
     width: 200px;
     height: 200px;
-    border: 1px solid #4A4A4A;
+    /*border: px solid #4A4A4A;*/
     margin-top: 70px;
     margin-left: 80px;
     margin-right: 80px;
