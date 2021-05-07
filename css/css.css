@@ -82,16 +82,18 @@ section{
     margin-top: 40px;
 }
 .botonA{
-    background-color: #4A4A4A;
-    margin: auto;
-    width: 150px;
+    background-color:  #4A4A4A;
+    display: block;
+    width: 140px;
     padding: 10px;
-    border-radius: 30px;
-    margin-top: 60px;
-    text-align: center;
-    text-decoration: none;
     color: #fff;
+    text-decoration: none;
     font-size: 20px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 100px;
+    text-align: center;
+    
 }
 .cajas2{
     display: flex;
